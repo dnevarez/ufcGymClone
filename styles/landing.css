@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  font-family: 'Raleway';
+  font-weight: 200;
+}
+
+.letters {
+  color: white;
+  font-size: 13px;
+}
+
+#my-gym {
+  margin: 0;
+  position: absolute;
+  left: 5px;
+  top: 10px;
+  color: gray;
+  height: 15px;
+  max-width: 100px;
+}
+
+.find {
+  position: relative;
+  top: 10px;
+  right: 5px;
+  color: white;
+  float: right;
+  font-size: 13px;
+}
+
+.location {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2.3125rem;
+  background: #0c0c0f;
+}
+
+.free {
+  position: absolute;
+  right: 75px;
+  margin-top: 1px;
+}
+
+.banner {
+  position: fixed;
+  top: 2.3125rem;
+  left: 0;
+  width: 100%;
+  height: 3.125rem;
+  background-color: #d20a0a;
+  box-shadow: 0 0 4px rgba(12,12,15,0.5);
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 2.1875rem;
+  margin-left: .5em;
+}
+
+.ham {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 3.125rem;
+  width: 3rem;
+  padding: 0 0.9375rem 0 0.375rem;
+  color: #fafbfd;
+  font-size: 1.75rem;
+  background-color: #19191e;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.ham:before {
+    content: '';
+    line-height: 0;
+    font-size: 0;
+    width: 0;
+    height: 0;
+    border-top: 0 solid transparent;
+    border-bottom: 3.125rem solid #19191e;
+    border-left: 0.875rem solid transparent;
+    border-right: 0 solid transparent;
+    position: absolute;
+    top: 0;
+    right: 100%;
+
+}
+
+/*i {
+  font-style: italic;
+}
+
+.icon-menu {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-menu:before {
+    content: "\f120";
+    display: inline-block;
+    font-family: "ufc";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-decoration: inherit;
+    text-rendering: optimizeLegibility;
+    text-transform: none;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}*/
+
+
+
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+  cursor: pointer;
+  border-radius: 1px;
+  height: 1px;
+  width: 24px;
+  background: white;
+  position: absolute;
+  display: block;
+  content: '';
+}
+#nav-toggle span:before {
+  top: -7px;
+}
+#nav-toggle span:after {
+  bottom: -7px;
+}
+
+.container {
+  height: 426px;
+}
+
+.hero{
+  height: 75%;
+  width: 100%;
+  left: 0;
+  top: 87px;
+  position: absolute;
+  z-index: -1;
+  background-image: url('//d3h2xv1tt1z2ui.cloudfront.net/production/assets/38/asset/open-uri20151214-3-7ynl9j');
+  background-position: 50% 10%;
+  background-size: cover;
+}
